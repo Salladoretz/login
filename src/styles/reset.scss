@@ -1,0 +1,77 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    font-family: Inter, Roboto, sans-serif;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+input,
+button {
+    font-family: Inter, Roboto, sans-serif;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.icon {
+    width: 12px;
+    height: 12px;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
