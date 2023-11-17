@@ -50,17 +50,6 @@ li {
     list-style: none;
 }
 
-.app {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-.container {
-    width: 1200px;
-    margin: 0 auto;
-}
-
 .icon {
     width: 12px;
     height: 12px;
@@ -74,4 +63,13 @@ input::-webkit-outer-spin-button {
 
 input[type="number"] {
     -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+.app {
+    @include flex();
+    flex-direction: column;
+    justify-content: flex-start;
+    background: $bg;
+    min-height: 100vh;
 }

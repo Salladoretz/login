@@ -1,0 +1,13 @@
+.auth {
+    @include flex();
+    height: 80vh;
+    width: 100vw;
+
+    &-container {
+        @include pop();
+            max-width: 400px;
+            width: 100%;
+    min-height: 500px;
+    background: white;
+    }
+}

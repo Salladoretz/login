@@ -1,0 +1,7 @@
+.header {
+    @include flex();
+    @include pop();
+    background: white;
+    width: 99vw;
+    height: 7vh;
+}
