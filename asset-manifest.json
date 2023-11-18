@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/y-lab__login/static/css/main.e886873e.css",
-    "main.js": "/y-lab__login/static/js/main.458fcc66.js",
+    "main.js": "/y-lab__login/static/js/main.e4309445.js",
     "index.html": "/y-lab__login/index.html",
     "main.e886873e.css.map": "/y-lab__login/static/css/main.e886873e.css.map",
-    "main.458fcc66.js.map": "/y-lab__login/static/js/main.458fcc66.js.map"
+    "main.e4309445.js.map": "/y-lab__login/static/js/main.e4309445.js.map"
   },
   "entrypoints": [
     "static/css/main.e886873e.css",
-    "static/js/main.458fcc66.js"
+    "static/js/main.e4309445.js"
   ]
 }
