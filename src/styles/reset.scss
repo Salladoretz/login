@@ -41,6 +41,7 @@ button {
 
 a {
     text-decoration: none;
+    color: $color;
 }
 
 ul,
@@ -67,9 +68,7 @@ input[type="number"] {
 }
 
 .app {
-    @include flex();
-    flex-direction: column;
-    justify-content: flex-start;
     background: $bg;
+    padding-top: 8px;
     min-height: 100vh;
 }

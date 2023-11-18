@@ -7,6 +7,7 @@ const AppRoutes = () => (
 
     <Routes>
         <Route index element={<Auth/>} />
+        <Route path='home' element={<Home/>} />
     </Routes>
   
     )

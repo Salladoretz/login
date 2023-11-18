@@ -1,13 +1,43 @@
 .auth {
-    @include flex();
-    height: 80vh;
-    width: 100vw;
+    @include component();
+    @include center();
+    height: fit-content;
+    max-width: 340px;
+    font-size: 12px;
+    padding: 10px;
 
-    &-container {
-        @include pop();
-            max-width: 400px;
+    &-form {
+
+        @include flex();
+        flex-direction: column;
+        gap: 10px;
+
+        .auth-input {
+
+            @include flex();
+            flex-direction: column;        
+        
+            input {
+                width: 100px;
+                height: 24px;
+                text-align: center;
+                box-shadow: $input-box-shadow;
+                border-radius: 10px;
+            }
+        }
+
+        .auth-error {
+            color: $color-error;
+            height: 20px;
             width: 100%;
-    min-height: 500px;
-    background: white;
+        }
+
+        button {
+            width: 100px;
+            height: 40px;
+            background: $bg-component;
+            box-shadow: $box-shadow;
+            border-radius: 20px;
+        }
     }
 }

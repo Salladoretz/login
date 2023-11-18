@@ -1,4 +1,13 @@
 .home {
-    @include flex();
-    height: 93vh;
+    @include center();
+
+    &-link {
+        margin-top: 50px;
+        font-size: 12px;
+        font-style: italic;
+
+        a {
+            text-decoration: none;
+        }
+    }
 }

@@ -11,7 +11,7 @@
     transform: translate(-50%, -50%);
 }
 
-@mixin pop() {
+@mixin component() {
     box-shadow: $box-shadow;
     background: $bg-component;
     border-radius: 7px;
