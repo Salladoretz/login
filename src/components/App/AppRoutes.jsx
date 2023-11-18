@@ -6,7 +6,7 @@ import Auth from '../Auth/Auth'
 const AppRoutes = () => (
 
     <Routes>
-        <Route index element={<Auth/>} />
+        <Route path='' element={<Auth/>} />
         <Route path='home' element={<Home/>} />
     </Routes>
   
