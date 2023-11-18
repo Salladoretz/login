@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/y-lab__login/static/css/main.e886873e.css",
+    "main.js": "/y-lab__login/static/js/main.e98c886a.js",
+    "index.html": "/y-lab__login/index.html",
+    "main.e886873e.css.map": "/y-lab__login/static/css/main.e886873e.css.map",
+    "main.e98c886a.js.map": "/y-lab__login/static/js/main.e98c886a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e886873e.css",
+    "static/js/main.e98c886a.js"
+  ]
+}
